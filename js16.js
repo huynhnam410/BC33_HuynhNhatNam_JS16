@@ -48,19 +48,77 @@ function cau3(){
 
 
 function cau4(){
-    var div_color=document.getElementById('div_color')
+    // var main1=document.getElementById('main1')
+    // var main2=document.getElementById('main2')
+    // var main3=document.getElementById('main3')
     
     
     for (var i=0;i<=10;i++){
-        if (i % 2===0){
-            div_color.innerHTML="Div chẵn"
-            div_color.style.background="red"
-            // document.getElementById('div_color').innerHTML 
+        
+    if (i % 2 !== 0 && i == 1) {
+      
+      main1.innerHTML="Div lẻ"
+      
+      document.getElementById("main1").style.backgroundColor = "blue";
+    } else if (i % 2!== 0 && i == 3) {
+        main3.innerHTML="Div lẻ"
+      document.getElementById("main3").style.backgroundColor = "blue";
+    } else if (i % 2!== 0 && i == 5) {
+        main5.innerHTML="Div lẻ"
+      document.getElementById("main5").style.backgroundColor = "blue";
+    } else if (i % 2!== 0 && i == 7) {
+        main7.innerHTML="Div lẻ"
+      document.getElementById("main7").style.backgroundColor = "blue";
+    } else if (i % 2!== 0 && i == 9) {
+        main9.innerHTML="Div lẻ"
+      document.getElementById("main9").style.backgroundColor = "blue";
+    } else if (i % 2 === 0 && i == 2) {
+        main2.innerHTML="Div chẵn"
+      document.getElementById("main2").style.backgroundColor = "red";
+    } else if (i % 2 === 0 && i == 4) {
+        main4.innerHTML="Div chẵn"
+      document.getElementById("main4").style.backgroundColor = "red";
+    } else if (i % 2 === 0 && i == 6) {
+        main6.innerHTML="Div chẵn"
+      document.getElementById("main6").style.backgroundColor = "red";
+    } else if (i % 2 === 0 && i == 8) {
+        main8.innerHTML="Div chẵn"
+      document.getElementById("main8").style.backgroundColor = "red";
+    } else {
+        main10.innerHTML="Div chẵn"
+      document.getElementById("main10").style.backgroundColor = "red";
+    }
+        // if (i % 2===0 && i==1){
+        //     main1.innerHTML="Div chẵn"
+        //     main1.style.background="red"
+        //     // document.getElementById('main').innerHTML 
           
-        } else if (i % 3===0) {
-            div_color.innerHTML="Div lẻ"
-            div_color.style.background="blue"
-            // document.getElementById('div_color').innerHTML 
-        }
+        // } else if (i % 2!==0) {
+        //     main2.innerHTML="Div lẻ"
+        //     main2.style.background="blue"
+        //     // document.getElementById('main').innerHTML 
+        // }
+
+        // if (i % 2===0){
+        //     main2.innerHTML="Div chẵn"
+        //     main2.style.background="red"
+        //     // document.getElementById('main').innerHTML 
+          
+        // } else if (i % 2!==0) {
+        //     main2.innerHTML="Div lẻ"
+        //     main2.style.background="blue"
+        //     // document.getElementById('main').innerHTML 
+        // }
+
+        // if (i % 2===0){
+        //     main3.innerHTML="Div chẵn"
+        //     main3.style.background="red"
+        //     // document.getElementById('main').innerHTML 
+          
+        // } else if (i % 2!==0) {
+        //     main3.innerHTML="Div lẻ"
+        //     main3.style.background="blue"
+        //     // document.getElementById('main').innerHTML 
+        // }
 }
 }
